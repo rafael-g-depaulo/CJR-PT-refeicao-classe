@@ -35,7 +35,7 @@ class Refeicao
   end
 
   def disp
-    if (@desc) then "Disponível"
+    if @desc then "Disponível"
     else "indisponível"
     end
   end
